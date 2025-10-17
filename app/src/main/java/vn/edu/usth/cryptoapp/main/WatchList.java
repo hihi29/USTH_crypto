@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Set;
 
 import vn.edu.usth.cryptoapp.R;
-import vn.edu.usth.cryptoapp.api.CoinData;
+import vn.edu.usth.cryptoapp.data.CoinData;
 import vn.edu.usth.cryptoapp.HomeAdapter;
 
 public class WatchList extends Fragment {

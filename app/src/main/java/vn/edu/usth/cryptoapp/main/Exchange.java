@@ -25,7 +25,7 @@ import java.util.List;
 
 import vn.edu.usth.cryptoapp.R;
 import vn.edu.usth.cryptoapp.ExchangeAdapter;
-import vn.edu.usth.cryptoapp.api.ExchangeData;
+import vn.edu.usth.cryptoapp.data.ExchangeData;
 
 public class Exchange extends Fragment {
 

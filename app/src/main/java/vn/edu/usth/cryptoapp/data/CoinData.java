@@ -1,4 +1,4 @@
-package vn.edu.usth.cryptoapp.api;
+package vn.edu.usth.cryptoapp.data;
 
 public class CoinData {
     private int rank;

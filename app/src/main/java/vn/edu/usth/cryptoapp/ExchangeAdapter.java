@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import vn.edu.usth.cryptoapp.api.ExchangeData;
+import vn.edu.usth.cryptoapp.data.ExchangeData;
 
 public class ExchangeAdapter extends RecyclerView.Adapter<ExchangeAdapter.ViewHolder> {
 

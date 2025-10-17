@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import vn.edu.usth.cryptoapp.api.CoinData;
+import vn.edu.usth.cryptoapp.data.CoinData;
 
 public class OverviewAdapter extends RecyclerView.Adapter<OverviewAdapter.ViewHolder> {
 

@@ -1,4 +1,4 @@
-package vn.edu.usth.cryptoapp.api;
+package vn.edu.usth.cryptoapp.data;
 
 public class ExchangeData {
     private final int rank;

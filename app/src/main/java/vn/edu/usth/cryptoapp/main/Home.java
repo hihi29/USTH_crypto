@@ -23,7 +23,7 @@ import java.util.List;
 
 import vn.edu.usth.cryptoapp.R;
 import vn.edu.usth.cryptoapp.HomeAdapter;
-import vn.edu.usth.cryptoapp.api.CoinData;
+import vn.edu.usth.cryptoapp.data.CoinData;
 
 public class Home extends Fragment {
 
