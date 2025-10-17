@@ -52,10 +52,6 @@ public class WatchList extends Fragment {
         super.onResume();
         loadWatchlistCoins();
     }
-    public void reloadDataFromPrefs() {
-        loadWatchlistCoins();
-    }
-
 
     private void loadWatchlistCoins() {
         SharedPreferences prefs = requireContext().getSharedPreferences("Watchlist", Context.MODE_PRIVATE);
@@ -72,7 +68,7 @@ public class WatchList extends Fragment {
 
         String idsParam = String.join(",", ids);
         String url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=" + idsParam +
-                "&price_change_percentage=1h,24h,7d";
+                "&price_change_percentage=1h";
 
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null,
                 response -> {
