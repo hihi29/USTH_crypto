@@ -1,4 +1,3 @@
-```markdown
 # USTH Crypto App
 ![app_logo.png](app/src/main/res/drawable/app_logo.png)
 ## Overview
@@ -7,6 +6,16 @@ USTH Crypto App is an Android application that visualises cryptocurrency market 
 - Home – Displays a ranked list of cryptocurrencies with live pricing and short-term performance metrics.
 - Overview – Shows a price chart and metadata for a selected coin, allowing users to switch the time range between 1 day, 7 days, and 30 days.
 - Exchange – Lists the most active crypto exchanges and provides quick links to their official websites.
+
+## Group Members
+| Student Name         | Student ID | Student Email                  |
+| -------------------  | ---------- | ----------------------------   |
+| Phạm Minh Trí        | 22BA13304  | tripm.22ba13304@usth.edu.vn    |
+| Trần Quốc Thái       | 22BI14396  | thaitq.23bi14396@usth.edu.vn   |
+| Nguyễn Đăng Khôi     | BI12-217   | khoind.bi12-217@st.usth.edu.vn |
+| Trần Việt Hùng       | 22BA13149  | hungtv.22ba13149@usth.edu.vn   |
+| Phạm Nguyễn Ngọc Hải | 22BA13123  | haipnn.22ba13123@usth.edu.vn   |
+| Nguyễn Minh Tiến     | 22BA13298  | tiennm.22ba13298@usth.edu.vn   |
 
 ## API Usage
 The app relies on three CoinGecko REST endpoints. All requests are performed with the Volley networking library and parse JSON responses into local model objects.
@@ -51,4 +60,3 @@ The app relies on three CoinGecko REST endpoints. All requests are performed wit
 4. Press Run to install and launch the application.
 
 Note: CoinGecko enforces rate limiting on their free API; avoid rapidly spamming filter buttons or repeatedly refreshing data to prevent temporary blocks.
-```
