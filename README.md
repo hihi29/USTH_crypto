@@ -1,6 +1,6 @@
 ```markdown
 # USTH Crypto App
-
+![app_logo.png](app/src/main/res/drawable/app_logo.png)
 ## Overview
 USTH Crypto App is an Android application that visualises cryptocurrency market data using the public CoinGecko API. The app provides three primary screens:
 
